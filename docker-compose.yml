@@ -27,6 +27,6 @@ services:
     build:
      context: client
     ports:
-      - '8080:80'
+      - '9080:80'
     depends_on:
       - api
